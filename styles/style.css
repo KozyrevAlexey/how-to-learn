@@ -188,7 +188,7 @@
 /* Секция, блок feynman */
 .feynman {
   height: 890px;
-  background: #F2F2F2 url(/how-to-learn/images/feynman.png) no-repeat bottom left;;
+  background: #F2F2F2 url(/how-to-learn/images/feynman.png) no-repeat bottom left;
   padding-top: 100px;
   position: relative;
   overflow: hidden;
