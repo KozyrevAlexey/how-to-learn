@@ -299,3 +299,60 @@
 }
 
 /* Подвал сайта, блок footer */
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  width: 90%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #fff;
+}
+
+/* если по БЭМ ошибки, просьба на этом примере уточнить правильное написание */
+.footer__column_content-copyright {
+  flex-basis: 711px;
+  position: relative;
+}
+
+.logo_place_footer {
+  background-image: url(/how-to-learn/images/logo_place_footer.svg);
+}
+.footer__author {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.footer__column-column-links {
+  margin: 20px 0 18px;
+}
+
+.footer__column-column-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
