@@ -70,6 +70,7 @@
   z-index: 1;
 }
 
+/* Так как в брифе не сказанно через ссылку верстать Logo или нет, а так же фоном или картинкой с указанием alt решил сделать через ссылку и с указанием для робота текстом  */
 .logo {
   width: 228px;
   height: 32px;
@@ -92,7 +93,7 @@
 
 /* Секция, блок description */
 .description {
-  padding: 100px 0;
+  margin: 100px;
 }
 .two-columns {
   display: flex;
@@ -131,14 +132,12 @@
 }
 
 /* Секция, блок digits */
-
 .digits {
-  padding: 100px 0;
+  margin: 100px;
   position: relative;
-  top:-100px;
 }
 
-.section-title {
+.section__title {
   margin: 0 auto;
   font-size: 60px;
   font-weight: 600;
@@ -147,7 +146,7 @@
   text-align: center;
 }
 
-.section-subtitle {
+.section__subtitle {
   margin: 0 auto;
   font-size: 24px;
   font-weight: normal;
@@ -185,3 +184,46 @@
   line-height: 1.2;
   margin-top: 20px;
 }
+
+/* Секция, блок feynman */
+.feynman {
+  height: 890px;
+  background: #F2F2F2 url(/how-to-learn/images/feynman.png) no-repeat bottom left;;
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+
+}
+.feynman__title {
+  margin: 0 auto;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+  width: 648px;
+}
+
+.feynman__subtitle {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.feynman__link {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Секция, блок kaufman */
+
