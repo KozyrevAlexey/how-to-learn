@@ -133,8 +133,9 @@
 
 /* Секция, блок digits */
 .digits {
-  margin: 100px;
+  margin: 100px 0;
   position: relative;
+  overflow: hidden;
 }
 
 .section__title {
@@ -188,7 +189,7 @@
 /* Секция, блок feynman */
 .feynman {
   height: 890px;
-  background: #F2F2F2 url(/how-to-learn/images/feynman.png) no-repeat bottom left;
+  background: #F2F2F2 url(../images/feynman.png) no-repeat bottom left;
   padding-top: 100px;
   position: relative;
   overflow: hidden;
@@ -292,7 +293,7 @@
   position: absolute;
   width: 877px;
   height: 877px;
-  background-image: url(/how-to-learn/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   right: -210px;
   top: 0;
   z-index: 0;
@@ -320,7 +321,7 @@
 }
 
 .logo_place_footer {
-  background-image: url(/how-to-learn/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
 }
 .footer__author {
   position: absolute;
