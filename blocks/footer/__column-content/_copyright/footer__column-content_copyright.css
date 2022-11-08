@@ -1,7 +1,11 @@
-.footer__column_content-copyright {
+.footer__column-content_copyright {
   flex-basis: 711px;
   position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+
+
+
+
